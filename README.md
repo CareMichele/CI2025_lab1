@@ -26,8 +26,8 @@ Standard Simulated Annealing acceptance:
 ### Fitness Function
 Objective function with penalties:
 - **Base value**: Sum of values of all assigned items
-- **Constraint penalty**: Heavy penalty for capacity violations (×10)
-- **Duplicate penalty**: Large penalty if item appears in multiple knapsacks
+- **Constraint penalty**: penalty for capacity violations (×10)
+- **Duplicate penalty**: penalty if item appears in multiple knapsacks
 
 ### Validation
 - `checkSameObject()`: Ensures no item appears in multiple knapsacks
